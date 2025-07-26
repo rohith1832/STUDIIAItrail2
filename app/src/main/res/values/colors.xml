@@ -1,0 +1,37 @@
+<resources>
+    <!-- Premium, Calm, and Luxurious Palette -->
+    <color name="colorPrimary">#C19A6B</color>         <!-- Deep Black (main accent/backgrounds) -->
+    <color name="colorPrimaryVariant">#C7BBE6</color>  <!-- Charcoal Lavender (for elevated surfaces) -->
+    <color name="colorOnPrimary">#FFFFFF</color>       <!-- White for contrast -->
+
+    <color name="colorSecondary">#FFDB58</color>       <!-- Shiny Gold -->
+    <color name="colorOnSecondary">#008B8B</color>     <!-- Blackish-Blue (on gold) -->
+
+    <color name="colorTertiary">#BFA2FC</color>        <!-- Light Soft Lavender -->
+    <color name="colorOnTertiary">#C19A68</color>      <!-- Deep Black on lavender -->
+
+    <color name="colorAccentBlue">#C65D00</color>      <!-- Pleasant Light Blue -->
+    <color name="colorOnAccentBlue">#37A96B</color>    <!-- Near black on light blue -->
+
+    <color name="colorBackground">#F5C99B</color>      <!-- Deep space black background -->
+    <color name="colorSurface">#F5EFFC</color>        <!-- Off-white/lavender for cards/surfaces -->
+    <color name="colorOnSurface">#708238</color>       <!-- Dark grey for text/icons on surfaces -->
+
+    <!-- Navigation drawer item colors -->
+    <color name="nav_item_selected">#FFDB58</color>    <!-- Gold highlight -->
+    <color name="nav_item_normal">#8B89A7</color>      <!-- Muted lavender-grey for unselected -->
+
+    <!-- Standard Material colors if referenced elsewhere -->
+    <color name="metallic_gold">#4E3B31</color>
+    <color name="gold_accent">#FFDB58</color>  <!-- Gold Hex Color -->
+    <!-- Or try #FFC700 for deeper gold -->
+    <color name="antique_gold">#C28840</color>
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#708238</color>
+</resources>
+

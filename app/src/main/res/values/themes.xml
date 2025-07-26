@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 🌟 Main Premium App Theme -->
+    <style name="Theme.MyPremiumApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>                 <!-- Deep elegant black -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>   <!-- Charcoal lavender -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>             <!-- White for contrast -->
+
+        <item name="colorSecondary">@color/colorSecondary</item>             <!-- Shiny metallic gold -->
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>         <!-- Near black/blue on gold -->
+
+        <!-- Optional third/fourth accent colors (if needed) -->
+        <!-- <item name="colorTertiary">@color/colorTertiary</item> -->
+        <!-- <item name="colorOnTertiary">@color/colorOnTertiary</item> -->
+
+        <!-- Background / Surface -->
+        <item name="android:colorBackground">@color/colorBackground</item>   <!-- Rich black -->
+        <item name="colorSurface">@color/colorSurface</item>                 <!-- Pleasant lavender/blue for cards/surfaces -->
+        <item name="colorOnSurface">@color/colorOnSurface</item>             <!-- Espresso/dark grey for text/icons -->
+
+        <!-- Shape Appearance for Modern UI -->
+        <item name="shapeAppearanceSmallComponent">@style/Shape.PremiumRounded</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.PremiumRounded</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.PremiumRounded</item>
+    </style>
+
+    <!-- 🧱 Extended Theme with No Action Bar -->
+    <style name="Theme.STUDIIAItrail2.NoActionBar" parent="Theme.MyPremiumApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 🛠 Used by Toolbar / Menus -->
+    <style name="Theme.STUDIIAItrail2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.STUDIIAItrail2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- 🟠 Custom Shape for Material Components -->
+    <style name="Shape.PremiumRounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+
+    <style name="CustomToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">@android:color/white</item>
+    </style>
+
+</resources>
+
+
+

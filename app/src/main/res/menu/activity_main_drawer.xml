@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_flashcards"
+            android:icon="@drawable/ic_flashcards"
+            android:title="@string/flashcards" />
+        <item
+            android:id="@+id/nav_quiz_maker"
+            android:icon="@drawable/ic_quiz"
+            android:title="@string/quiz_maker" />
+        <item
+            android:id="@+id/nav_progress_tracker"
+            android:icon="@drawable/ic_tracker"
+            android:title="@string/progress_tracker" />
+    </group>
+</menu>

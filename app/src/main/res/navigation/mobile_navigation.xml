@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.studiiaitrail2.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+
+        <!-- Action to Study Planner Fragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_studyPlannerFragment"
+            app:destination="@id/studyPlannerFragment" />
+    </fragment>
+
+    <!-- Study Planner Fragment -->
+    <fragment
+        android:id="@+id/studyPlannerFragment"
+        android:name="com.example.studiiaitrail2.ui.StudyPlannerFragment"
+        android:label="Study Planner"
+        tools:layout="@layout/fragment_study_planner" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.studiiaitrail2.ui.QuizFragment"
+        android:label="Quiz" />
+    <fragment
+        android:id="@+id/flashcardsFragment"
+        android:name="com.example.studiiaitrail2.ui.FlashcardsFragment"
+        android:label="Flashcards" />
+
+    <fragment
+        android:id="@+id/progressTrackerFragment"
+        android:name="com.example.studiiaitrail2.ui.ProgressTrackerFragment"
+        android:label="Progress Tracker" />
+
+
+
+
+
+    <!-- Add other fragments or nested graphs as needed -->
+
+</navigation>

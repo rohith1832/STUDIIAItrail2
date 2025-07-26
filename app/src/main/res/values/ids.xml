@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_add_file" type="id" />
+    <item name="searchView" type="id" />
+    <item name="title" type="id" />
+    <item name="search_icon" type="id" />
+    <item name="searchResultsRecyclerView" type="id" />
+    <item name="action_homeFragment_to_studyPlannerFragment" type="id" />
+    <item name="textTitle" type="id" />
+    <item name="textLink" type="id" />
+</resources>
