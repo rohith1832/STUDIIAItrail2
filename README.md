@@ -25,11 +25,6 @@ An educational Android application featuring search functionality, user authenti
 
 ---
 
-## Screenshots
-
-*Add your app screenshots here (optional)*
-
----
 
 ## Getting Started
 
