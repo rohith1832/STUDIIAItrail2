@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/homeFragment">
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
 
     <!-- Home Fragment -->
     <fragment
@@ -38,6 +37,16 @@
         android:id="@+id/progressTrackerFragment"
         android:name="com.example.studiiaitrail2.ui.ProgressTrackerFragment"
         android:label="Progress Tracker" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.studiiaitrail2.ui.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_loginFragment_to_nav_home"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+
 
 
 
