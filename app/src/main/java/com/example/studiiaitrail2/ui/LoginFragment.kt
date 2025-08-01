@@ -10,6 +10,7 @@ import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.studiiaitrail2.R
+import androidx.core.content.edit
 
 class LoginFragment : Fragment() {
 
@@ -86,12 +87,12 @@ class LoginFragment : Fragment() {
 
     private fun signup(email: String, password: String) {
         val prefs = requireContext().getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        val editor = prefs.edit()
+        prefs.edit {
 
-        // You could check if user already exists and handle accordingly
-        editor.putString(KEY_EMAIL, email)
-        editor.putString(KEY_PASSWORD, password)
-        editor.apply()
+            // You could check if user already exists and handle accordingly
+            putString(KEY_EMAIL, email)
+            putString(KEY_PASSWORD, password)
+        }
 
         Toast.makeText(requireContext(), "Sign up successful! Please log in.", Toast.LENGTH_SHORT).show()
         // Switch to login mode after signup
